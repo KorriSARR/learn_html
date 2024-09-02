@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!--création de la barre de navigation-->
+
+    <div style="background-image: url(img/barre\ nav1.png); width: 900px; height: 150px; text-align: left; font-size: 30px; font-style: italic; margin-left: 150px;">
+    </div>
+    <div> 
+          <nav style="width: 250px; height: 200px; text-align: left; font-size: 30px; margin-top: -180px;">
+                <ul>
+                    <li> <a href="index.html" > Home</a></li>
+                    <li><a href="About.html"> About </a></li>
+                    <li> <a href="/Work"> Work </a></li>
+                    <li> <a href="/Resume"> Resume </a></li>
+                    <li> <a href="/Contact"> Contact </a></li>
+                </ul>
+            </nav>
+    </div>
+
+   <!--création de la section about--> 
+   
+    
+            
+                <div style="width: 200px; height: 250px; background-color: blue; padding: 5px; margin-top: 50px;">
+                <h1>About</h1>
+                <p>nous parler de vous et de votre parcours de comment vous voyez l'avenir</p>
+                </div>
+
+
+            <!--création de la section work-->
+            
+            
+                <div style="width: 200px; height: 250px; background-color: red; margin-left: 250px;">
+                <h1>Work</h1>
+                <p>avez vous déjà travaillé ou et quand comment est ce que c'était</p>
+            </div>
+          
+   
+   <!--création de la section resume-->
+   
+   
+    <div style="width: 200px; height: 250px; background-color: yellow; margin-left: 500px;">
+    <h1>Resume</h1>
+    <p>importer votre CV</p>
+   </div>
+   
+   
+   <!--création de la section contact-->
+   
+   
+    <div style="width: 200px; height: 250px; background-color: green; margin-left: 750px;">
+    <h1>Contact</h1>
+    <p>Comment pouvon nous vous contacter</p>
+   </div>
+  
+   <div>
+
+    <form method="post" enctype="multipart/form-data">
+
+
+        <p>
+            Nom <input type="text" size="40" name="">
+        </p>
+        <p>
+            Prénom <input type="text" size="40" name="">
+        </p>
+        <p>
+            Date et Lieu de Naissance <input type="date" size="40" name="">à <input type="text" size="40" name="">
+        </p>
+       
+        <p>
+            Expérience de travail <select name="niveau">
+            <option value="">--0 à 2 ans--</option>
+            <option value="prim">--3 à 5 ans--</option>
+            <option value="col">--6 ans et plus--</option>
+            
+            </select>
+        </p> 
+        <p>
+            Contact<input type="" size="40" name="">
+        </p>
+       
+
+        <label for="objectif">Parlez nous de vous
+        </label><br>
+        <textarea name="Message" cols="30" rows="10"></textarea>
+        <p>
+            CV <input type="file" name="CV">
+        </p><hr>
+        <input type="submit" name="">
+    </form>
+
+   </div><hr>
+   
+</body>
+<footer>
+    
+    <div id="mes_amis">
+        <h1>Pays</h1>
+        <div id="listes_amis">
+            <ul>
+                <li><a href="#">Senegal</a></li>
+                <li><a href="#">Mali</a></li>
+                <li><a href="#">Nigeria</a></li>
+                <li><a href="#">Burkina Faso</a></li>
+            </ul>
+           
+        </div>
+</footer>
+</html>
